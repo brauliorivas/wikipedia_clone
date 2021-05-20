@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header .wiki-container{
+    margin-top: 12px;
+}
+
+header p {
+    height: 33px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+header .img-container {
+    width: 100%;
+    height: 100%;
+}
+
+header img {
+    position: absolute;
+    top: 185px;
+    align-self: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 546px;
+    height: 325px;
+    text-align: center;
+}
+
+main .languages-container {
+    display: grid;
+    grid-template-columns: auto auto;  
+    margin: 0 auto;
+    width: 312px;
+    height: 225px;
+    grid-column-gap: 5px;
+}
+
+main div {
+    width: 156px;
+    height: 45px;
+}
+
+main .es {
+    margin-right: 6px;
+}
+main .en {
+    margin-left: 6px;
+}
+main .ch {
+    margin-left: 1%;
+}
+main .de {
+    margin-left: 4%;
+}
+main .ru {
+    margin-left: 4%;
+}
+main .fr {
+    margin-left: 4%;
+}
+main .it {
+    margin-left: 4%;
+}
+main .jp {
+    margin-left: 4%;
+}
+main .pr {
+    margin-left: 4%;
+}
+main .pl {
+    margin-left: 4%;
+}
