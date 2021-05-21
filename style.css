@@ -46,7 +46,7 @@ main {
 
 main .languages-container {
     display: grid;
-    grid-template-columns: auto auto;  
+    grid-template-columns: auto auto;
     margin: 0 auto;
     width: 312px;
     height: 225px;
@@ -59,7 +59,7 @@ main div {
 }
 
 main .es {
-    margin-right: 6px;
+    grid-column-gap: 5px;
 }
 main .en {
     margin-left: 6px;
